@@ -42,7 +42,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by: Mohammed Faizal.J
 RegisterNumber: 212222100027
 */
-# Half Subtracter:
+# Half Subtractor:
 module HalfSubtracter(a,b,diff,borr);
 input a,b;
 output diff,borr;
@@ -50,7 +50,7 @@ assign diff = (a^b);
 assign borr = (~a&b);
 endmodule
 
-# Full Subtracter:
+# Full Subtractor:
 module FullSubtractor(a,b,c,diff,borr);
 input a,b,c;
 output diff,borr;
@@ -67,16 +67,16 @@ endmodule
 
 
 ##  RTL realization
-### Half Subtracter:
+### Half Subtractor:
 ![output](hsr.jpg)
-### Full Subtracter:
+### Full Subtractor:
 ![output](fsr.jpg)
 
 ## Timing diagram 
-### Half Subtracter:
+### Half Subtractor:
 ![output](hsw.jpg)
 
-### Full Subtracter:
+### Full Subtractor:
 ![output](fsw.jpg)
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
